@@ -34,7 +34,7 @@ class Mybot ():
         
         TOKEN = "1414294529:AAF-Hjd9HuYnsotb4nfUFr9JkIy8K8IDEFI"
         updater.start_webhook(listen="0.0.0.0",port=int(PORT),url_path=TOKEN)
-        updater.bot.setWebhook('https://hamrahkhadamat.herokuapp.com/' + TOKEN)
+        updater.bot.setWebhook('https://hamrahkh.herokuapp.com/' + TOKEN)
         updater.idle()
 
 bot = Mybot ()
